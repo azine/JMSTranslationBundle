@@ -1,5 +1,6 @@
 body > .container {
 	margin-top: 50px;
+	width: 90%;
 }
 
 .jms-translation-anchor {
@@ -9,4 +10,22 @@ body > .container {
 
 .jms-sources-list-item {
 	word-break: break-all;
+}
+
+textarea.span6{
+	width: 95%;
+	height: 140px;
+}
+
+abbr{
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+.idField{
+	width:30%;
+	max-width: 300px;
 }

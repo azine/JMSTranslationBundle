@@ -178,7 +178,6 @@ function JMSTranslationManager(updateMessagePath, isWritable)
         var JMS = this;
         $(document).ready(function(event) {
             JMS.domain.handlers(JMS);
-            JMS.truncator.truncate(JMS);
             $(JMS.messageFilter.selector).keyup(function(){
                 JMS.messageFilter.filter();
             });
