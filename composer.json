@@ -13,7 +13,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^5.3.3 || ^7.0",
+        "php": "^8.5.12",
         "twig/twig": "^1.27 || ^2.0",
         "symfony/framework-bundle": "^2.3 || ^3.0 || ^4.0",
         "nikic/php-parser": "^1.4 || ^2.0 || ^3.0 || ^4.0",
